@@ -180,7 +180,9 @@
       <div id="col2"> 
         <button id="btn2">Copiar controles</button>
         <h1>Coluna 2</h1>
-        <form id="form2" method="post" action=""></form>
+        <form id="form2" method="post" action="">
+
+        </form>
       </div>
       <div id="col3"> 
         <button id="btn3">Criar controles</button>
@@ -191,13 +193,24 @@
     <script>
       const btn1 = document.getElementById("btn1");
       btn1.addEventListener("click", ()=>{
-        alert("Clicado no btn alterar componentes!");
+        //alert("Clicado no btn alterar componentes!");
+
+        const inputName = document.getElementById("name");
+        const labelName = inputName.previousElementSibling("name");
+        inputName.value = "Valor alterado!";
         
       })
 
       const btn2 = document.getElementById("btn2");
       btn2.addEventListener("click", ()=>{
-        alert("Clicado no btn copiar valores!");
+        //alert("Clicado no btn copiar valores!");
+
+        const inputName = document.getElementById("name");
+        const labelName = inputName.previousElementSibling("name");
+
+        const form2 = document.getElementById("form2");
+        form2.appendChild(labelName.cloneNode(true));
+        form2.appendChild(inputName.cloneNode(true));
       })
 
       const btn3 = document.getElementById("btn3");

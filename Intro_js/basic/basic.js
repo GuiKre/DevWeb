@@ -6,13 +6,13 @@
     1. Variáveis var, let, const, string, number e boolean;
     2. Operadores de atribuição, aritméticos, relacionais, lógicos e unários;
     3. Estruturas de decisão if/else, ternárias e switch;
-    4. Arrays e estruturas de repetição while, do/while, for, for/in e for/of;
+    4. Arrays(vetores) e estruturas de repetição while, do/while, for, for/in e for/of;
     5. Funções convencionais e seta.
 
  *************************************************************************/
 
 // 1. Variáveis
-import * as vars from "./js/variables.js";
+//import * as vars from "./js/variables.js";
 
 // 2. Operadores
 //import * as ops from "./js/operators.js";
@@ -20,8 +20,8 @@ import * as vars from "./js/variables.js";
 // 3. Estruturas
 //import * as structs from "./js/structs.js";
 
-// 4. Arrays e repetidores
+// 4. Arrays(vetores) e repetidores
 //import * as repeaters from "./js/repeaters.js";
 
 // 5. Funções convencionais e seta
-//import * as funcs from "./js/functions.js";
+import * as funcs from "./js/functions.js";

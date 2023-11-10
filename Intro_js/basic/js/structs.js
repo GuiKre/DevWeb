@@ -6,7 +6,7 @@ let b = 5;
 
 console.log("a == b: " + (a == b));
 console.log("a > b: " + (a > b));
-console.log("a <= b: " + (a > b));
+console.log("a <= b: " + (a < b));
 
 if (a == b) {
   console.log("A é igual a B!");
@@ -18,7 +18,7 @@ let mensagem = a != b ? "A é diferente B!" : "A é igual a B!";
 console.log(mensagem);
 
 const dias = [2, 3, 4, 5, 6];
-switch (dias[9]) {
+switch (dias[5]) {
   case 2:
     console.log("Segunda-feira!");
     break;

@@ -1,4 +1,4 @@
-// 4. Arrays e estruturas de repetição while, do/while, for, for/in e for/of;
+// 4. Arrays(vetores) e estruturas de repetição while, do/while, for, for/in e for/of;
 
 const executar = true;
 const nomes = ["João", "Pedro", "Paulo", "Tiago", "Ana", "Maria"];

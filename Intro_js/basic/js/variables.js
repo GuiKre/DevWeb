@@ -1,12 +1,12 @@
 // 1. Variáveis var, let, const (tipos: string, number, boolean)
 
-var numero = 100;
+var numero = 100;//não é recomendado usar var, prefira usar let
 //let numero = 100;
 //const numero = 100;
 
 numero = 99;
-numero = "dez";
-numero = true;
+//numero = "dez";
+//numero = true;
 console.log(numero);
 
 const number = 42;
